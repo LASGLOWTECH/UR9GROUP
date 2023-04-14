@@ -42,7 +42,7 @@ p {
 
 
 
-.App {}
+
 
 .imG {
   background-image: url("/public/propp1.jpeg");
@@ -73,7 +73,7 @@ p {
 }
 
 .nav a:hover {
-  color: yellow;
+  color: #e3ab13;
 }
 
 .nav {
@@ -169,7 +169,7 @@ h1 {
 
 
   .nav a:hover {
-    color: orange
+    color: #e3ab13
   }
 
   .menu-burger {
@@ -185,7 +185,7 @@ h1 {
 
   .menu-burger:hover {
     color: black;
-    background-color: #f7931e;
+    background-color: #e3ab13;
   }
 
 

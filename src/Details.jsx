@@ -16,8 +16,8 @@ const Details = [{
 {
     id: 3,
     image: "/sustainability.png",
-    Tag: "Virtue",
-    info: "Our focus is cultivating an aura of exclusivity and it manifests in everything we do for ourselves and our customers and clients.By providing high-end and unique products and services, our customers are assured of prestige "
+    Tag: "Sustainability",
+    info: "We love our planet. UR9 Group cares for our world and our people, by investing in eco-friendly practices as we build properties and create drinks, as well as ethical sourcing and supply chain management."
 
 }
 
