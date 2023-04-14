@@ -10,8 +10,8 @@ const Hero = () => {
             <div className="row imG" >
 
                 <div className="col-lg-8 mt-5 text-warning  ">
-                    <h1 className=" ms-4   text-white lh-sm mt-5 text-justify text-uppercase">Living Large and <span className="text-warning">Prosperous</span> is what we stand for  </h1>
-                    <p className="mx-4 text-wrap mt-3 fs-2 ">WELCOME TO UR9 GROUP</p>
+                    <h1 className=" ms-4 fw-bolder pt-5 fs-1 text-white lh-sm mt-5 text-justify text-uppercase">Living Large and <span className="text-warning">Prosperous</span> is what we stand for  </h1>
+                    <p className="mx-4 text-wrap mt-3 text-light ws-5  fw-bold fs-5 ">WELCOME TO UR9 GROUP</p>
 
                     <form action="mailto:ur9groupltd@gmail.com " method="POST" class="form-group">
                         <div class=" align-items-center d-flex justify-content-start  ms-4 py-5">
@@ -82,7 +82,7 @@ const Hero = () => {
 
 
 
-            <div className="col-lg-6  px-5 py-4">
+            <div className="col-lg-6  px-5 py-2">
                 <h3 className="fw-bold">UR9 PROPERTIES</h3>
                 <p className=" fs-6 text-justify">We take pride in offering an exclusive range of luxurious homes and lands in choicest and growing locations that are designed to meet your taste From villas, mansions, spacious apartments to cozy cottages and bungalows, we have something for everyone. Our homes are crafted with attention to detail and feature top-of-the-line amenities, ensuring that you experience the ultimate in comfort and style and our lands are sure to give you a high return on investments.
                     UR9 properties help people get their dream homes and live it in reality.</p>
@@ -96,7 +96,7 @@ const Hero = () => {
 
 
 
-            <div className="col-lg-6  px-5 py-5">
+            <div className="col-lg-6  px-5 py-2">
                 <h3 className="fw-bold">UR9 CONSTRUCTION</h3>
                 <p className="text-justify  fs-6 text-wrap">We wear the helmet and bring your vision to life. At UR9 Construction,
                     we specialize in a wide range of services including residential and commercial construction, remodeling, renovations, and custom home building. Whether you need to build a new project from the ground up or renovate an existing property,

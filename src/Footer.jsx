@@ -10,7 +10,7 @@ const Footer = () => {
    {/* features */}
 </div>
 <div className=" col-lg-10">
-<div className="Features d-flex py-4 flex-row gap-4  mx-5 justify-content-center align-items-center">
+<div id="Footer"className= "Features d-flex py-4 flex-row gap-4  mx-5 justify-content-center align-items-center">
 
 <div className="  features-header"><h5 className="text-warning  fw-bold">SERVICES</h5>
 <p>Properties/Real Estate,  Construction  Drinks, Industry.....</p>
@@ -29,7 +29,7 @@ const Footer = () => {
 {/* icons-section */}
 <div className="row">
         
-<button type="btn"className="bg-warning w-50 rounded-3 mx-auto text-center">Our Social Platforms</button>
+<button type="btn"className="bg-warning w-50 rounded-3 mx-auto text-center">Social handles</button>
 <div class="footer-icon d-flex  align-items-center justify-content-center ,max-w-100 mx-6 mb-7 col-12  "  >
 
 
