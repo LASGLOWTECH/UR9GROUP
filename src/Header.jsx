@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
 
+import { Link } from 'react-router-dom';
 
 
 const Header = () => {
@@ -27,10 +27,10 @@ const Header = () => {
         
        <div className= {navExpanded? " nav  fw-bold  fs-5 mx-60 expanded" : 'nav '  }>
 
-       
-        < a href="/">Home</a>
+       <Link to='/'>HOME</Link>
+       <Link to='/About'>ABOUT</Link>
             < a href="/#About-section">Services</a>
-            < a href="/#Footer">About</a>
+           
          
         </div>
   
