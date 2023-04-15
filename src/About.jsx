@@ -7,7 +7,7 @@ const About  = () => {
 <h1 className="ms-5 py-5 text-decoration-underline-warning text-white fw-bolder"> OUR BUSINESS</h1>
 <ul className="things text-center lh-lg  fs-1  py-4 list-style-type-none text-light fw-bold fs-4">
 <li>UR9 FARMS</li>
-<li>UR9 LIQOIR</li>
+<li>UR9 LIQUOR</li>
 <li>UR9 INDUSTRIES</li>
 <li>UR9 PROPERTIES</li>
 <li>UR9 CONSTRUCTION</li>
