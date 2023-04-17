@@ -4,46 +4,56 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 
-}
 
+ 
+
+
+
+}
 
 
 :root {
   /* colors */
   --primary-color: #15172f;
   --light-color1: #1f1e21;
-  --orange: #f7931e;
+  --gold: #e3ab13;
   --violet: #5258FB;
   /* fonts */
   --h1-color: 'League Spartan', sans-serif;
-
+  --Rail-way: 'Raleway',
+     --Public-sans: 'Public Sans', sans-serif;
   --Poppings: 'Poppins', sans-serif;
   --Lato: 'Lato', sans-serif;
-  --Roboto:font-family: 'Roboto Condensed', sans-serif;
-  --montserat: 'Montserrat', sans-serif;
+  --Roboto: font-family: 'Roboto Condensed', sans-serif;
+  --Montserat: 'Montserrat', sans-serif;
 
   ;
 }
 
 
 p {
-  font-family: var(--Roboto);
-  line-height: 2;
+  font-family: var(--Rail-way);
+  line-height: 2.5;
+
+  font-weight: 400px;
 }
 
 
 .imG {
   background-image: url("/public/propp1.jpeg");
   background-size: cover;
-  background-position: cover;
+  background-position: ;
   background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: overlay;
   background-repeat: no-repeat;
-  
+
+  width: 100%;
+  overflow: hidden;
+
 }
 
 .img1 {
-  width: 50px;
+
   height: 50px;
   width: 50px;
 }
@@ -54,8 +64,8 @@ p {
 
 .nav-links a {
   text-decoration: none;
-
-  font-weight: bold;
+font-family: var(--Roboto);
+  font-weight: normal;
   font-size: 16px;
   color: white;
 
@@ -68,18 +78,22 @@ p {
 }
 
 
-btn:hover{background-color: #e3ab13;}
+.btn:hover {
+  background-color: #e3ab13;
+}
 
 
 
-
+h3{font-family: var(--Rail-way);}
 
 
 h1 {
-  font-family: var(--Roboto);
+  font-family: var(--Rail-way
+  
+  );
   font-weight: 900;
-  font-size: 900px;
-  box-shadow: 2px 3px #e3ab13;
+  font-size: ;
+  box-shadow: 2px 2px #e3ab13;
 
 }
 
@@ -135,7 +149,7 @@ h1 {
   background-color: rgba(0, 0, 0, 0.6);
   background-blend-mode: overlay;
   background-repeat: no-repeat;
-  height: autopx;
+
 }
 
 ul li {
@@ -167,10 +181,11 @@ ul li {
   }
 
 
-  .formally{
+  .formally {
     width: 400px;
-    margin:5px 5px 
+    margin: 5px 5px
   }
+
   .welcome {
     margin-top: 20%;
   }
