@@ -13,7 +13,7 @@ const Hero = () => {
                     <h1 className=" ms-4 fw-bolder pt-5 fs-1 text-white lh-sm mt-5 text-justify text-uppercase">Living Large and <span className="text-warning">Prosperous</span> is what we stand for  </h1>
                     <p className="mx-4 text-wrap mt-3 text-light ws-5  fw-bold fs-5 ">WELCOME TO UR9 GROUP</p>
                       <div className="Hero-word ms-4 b fs-2  fw-bolder w-50  rounded-3  my-5 fw-bold">
-                       <h4>Where We build your Luxury Home</h4> 
+                      <button class="  btn btn-warning mt-4   fw-bold mb-3"><a className="text-decoration-none text-light fw-bold" href="/About" target="_blank">LEARN MORE</a></button>
                       </div>
                    
                 </div>

@@ -13,6 +13,7 @@ const About  = () => {
 <li>UR9 CONSTRUCTION</li>
 <li>UR9 ENTERTAINMENT</li>
 <li>UR9 TRANSPORT</li>
+<li>UR9 GLOBAL</li>
 
 </ul>
 </div>
@@ -64,7 +65,7 @@ business model which is <span className="text-warning fw-bold">‘DRIVEN BY EXCE
 <div className="col-lg-6 d-flex flex-column px-5  mt-5 ">
 <div className=" text-center vision-section">
 <h3 className="text-warning mission fw-bold ">OUR MISSION</h3>
-  <div className="text-warning misicons "><i className='  py-3 far fa-eye'></i></div>
+  <div className="text-warning misicons "><i className=" py-3 fa fa-bullseye"></i></div>
 <p className="py-3 text-white ">To provide consumers with high quality products and services 
 across various industrial spectrums utilizing the Total Quality Management
 (TQM) model. </p>
@@ -73,7 +74,7 @@ across various industrial spectrums utilizing the Total Quality Management
 <div className="vision-section text-center">
 <h3 className="text-warning vision fw-bold">VISION</h3>
 
-<div className="text-warning misicons"><i className=" py-3 fa fa-bullseye"></i></div>
+<div className="text-warning misicons"><i className='  py-3 far fa-eye'></i></div>
 
 
 <p className="py-3  text-white ">To become one of the leading brands in our industries of 

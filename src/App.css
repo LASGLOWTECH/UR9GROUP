@@ -63,28 +63,22 @@ p {
   height: auto;
 }
 
-.nav a {
+.nav-links a {
   text-decoration: none;
-  margin-left: 20px;
+  
   font-weight: bold;
-  font-size: 20px;
+  font-size: 16px;
   color: white;
-  padding-left: 30px;
+  
+
 }
 
-.nav a:hover {
+.nav-links a:hover {
   color: #e3ab13;
+  
 }
 
-.nav {
 
-
-  display: flex;
-  flex-direction: row;
-  margin-left: 40%;
-  justify-content: space-between;
-
-}
 
 
 
@@ -96,12 +90,12 @@ h1 {
   font-family: var(--Lato);
   font-weight: 900;
   font-size: 800px;
+  box-shadow: #e3ab13 2px 1px;
 }
 
+#bakd{background-color: black;}
 
-
-.Header {
-  background-color: black;
+.nav-links{ margin-left: 70%;
 }
 
 .form-control {
@@ -134,12 +128,13 @@ h1 {
 }
 
 .container-fluid {
-  margin: 3% 7%;
+  margin: 5% 30%;
 }
 
 .menu-burger {
   display: none;
 }
+
 
 
 .about-hero {
@@ -159,66 +154,18 @@ margin: auto;}
   background-color: #000000;
 }
 
+
+@media screen and (max-width: 1200px) {
+
+}
 @media screen and (max-width: 700px) {
-
-  .nav {
-    display: none;
-    flex-direction: column;
-    width: 100vw;
-    height: 500px;
-    top: 80px;
-    opacity: 1;
-    justify-content: space-evenly;
-    column-gap: 5px;
-    position: absolute;
-    background-color: rgba(0, 0, 0, 1
-  );
-    z-index: -1;
-    align-items: center;
-    left: -100px;
-    margin-left: 0;
-  }
+ 
+  .nav-links{ display: flex;
+    justify-content: start;}
+   
+  
 
 
-
-  .nav a:hover {
-    color: #e3ab13
-  }
-
-  .menu-burger {
-    display: flex;
-    position: absolute;
-    margin: auto 450px;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-     justify-content: center;
-    align-items: center;
-  }
-
-  .menu-burger:hover {
-    color: black;
-    background-color: #e3ab13;
-  }
-
-
-  .nav a {
-
-
-
-    padding: 15px 0;
-    text-align: center;
-    width: 100%;
-    font-weight: 600;
-  }
-
-  .nav.expanded {
-    display: flex;
-    transition: 2s ease-in-out;
-
-    z-index: 99;
-
-  }
   #prop-items{padding: auto;
   }
 }
@@ -228,12 +175,10 @@ margin: auto;}
 
 @media screen and (max-width: 500px) {
 
-  .menu-burger {
-
-    margin: auto 150px;
-  }
-
-.val-text{padding:0 2px}
+  
+  .welcome{margin-top:40%;}
+    
+  
 
 
 }
