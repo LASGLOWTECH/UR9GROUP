@@ -44,7 +44,7 @@ const ContactUs = () => {
                 <div className='col-12   mx-auto second-col'>
 
 
-                    <form className=" mx-5 formally" ref={form} onSubmit={sendEmail}>
+                    <form className=" w-75 mx-5 formally" ref={form} onSubmit={sendEmail}>
                         < h3 className=" fw-bolder fs-1 pt-5 text-dark welcome">Welcome!</h3>
                         <p className=" fw-bold fs-4  text-success">{result} </p>
 

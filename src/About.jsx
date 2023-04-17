@@ -4,7 +4,7 @@ const About  = () => {
 <div className=" row  About-section">
 <div className=" col-lg-12 py-5  text-center about-hero">
     <h1 className="text-warning text-center mt-5 text-bottom px-5 fs-1 fw-bolder">PARTNER WITH US TODAY</h1>
-<h1 className="ms-5 py-5 text-decoration-underline-warning text-white fw-bolder"> OUR BUSINESS</h1>
+<h1 className="ms-5 py-5 text-decoration-underline-warning text-white fw-bolder"> OUR BUSINESSES</h1>
 <ul className="things text-center lh-lg  fs-1  py-4 list-style-type-none text-light fw-bold fs-4">
 <li>UR9 FARMS</li>
 <li>UR9 LIQUOR</li>
