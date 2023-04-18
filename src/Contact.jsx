@@ -9,14 +9,14 @@ const ContactUs = () => {
     const [result, setResult] = useState("")
     const sendEmail = (e) => {
         e.preventDefault();
-
+        console.log(`${process.env.REACT_APP_API_KEY}`);
         setIsloading(true);
 
         emailjs.sendForm('service_9yexy8p', 'template_cl62k3c', form.current, 'PBTi6vGyx_hHTMRZs')
 
             .then((result) => {
 
-                console.log(result.text);
+                console.log(process.env.REACT_API_KEY);
                 setIsloading(false);
                 setTimeout(()=>{ setResult("Thanks for Contacting us")
 

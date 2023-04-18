@@ -42,7 +42,7 @@ p {
 .imG {
   background-image: url("/public/propp1.jpeg");
   background-size: cover;
-  background-position: ;
+  background-position:cover ;
   background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: overlay;
   background-repeat: no-repeat;

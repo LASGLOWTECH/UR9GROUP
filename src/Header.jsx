@@ -1,53 +1,46 @@
-import { useState } from 'react';
+import Carousel from 'react-bootstrap/Carousel';
 
-import { Link } from 'react-router-dom';
-
-
-const Header = () => {
-
-
-
-    const[navExpanded, setNavexpanded]= useState(false)
-    const expandNav=()=>{
+function IndividualIntervalsExample() {
+  return (
+    <Carousel>
+      <Carousel.Item interval={5000}>
+        <img
+          className="d-block w-100"
+          src="luxury.png"
+          alt="First slide"
+        />
+        <Carousel.Caption>
+          <h3>First slide label</h3>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
       
-      setNavexpanded(!navExpanded)
-    
-    }
-    
-
-
-    return (<div className="Header d-flex py-3 align-items-center">
-
-        <div className="brand   ">
-
-            <img className=" mx-4 img1" src="/hem.png" alt="image"></img>
-        </div>
-        
-        
-        
-       <div className= {navExpanded? " nav  fw-bold  fs-5 mx-60 expanded" : 'nav '  }>
-
-       <Link to='/'>HOME</Link>
-       <Link to='/About'>ABOUT</Link>
-       <Link to='/Contact'>CONTACT</Link>
-       <Link to='/Navbar'>Features</Link>
-        
-           
-         
-        </div>
-  
-        
-   
-
-        <button class="navbar-toggler"  type="button" >
-         <span class=" mx-5 navbar-toggler-icon"><i class="  bg-light menu-burger fa fa-bars text-warning "  
-         onClick={expandNav}  aria-hidden="true" id="icon"></i></span>
-       </button>
-       
-       
-    </div>
-
-    );
+      <Carousel.Item interval={500}>
+        <img
+          className="d-block w-100"
+          src="mark1.png"
+          alt="Second slide"
+        />
+        <Carousel.Caption>
+          <h3>Second slide label</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="holder.js/800x400?text=Third slide&bg=20232a"
+          alt="Third slide"
+        />
+        <Carousel.Caption>
+          <h3>Third slide label</h3>
+          <p>
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
+  );
 }
 
-export default Header;
+export default IndividualIntervalsExample;
