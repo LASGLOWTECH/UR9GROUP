@@ -33,7 +33,7 @@ const Hero = () => {
             </div>
 
 
-            <div className="services-section w-100 bg-dark text-light " id="values" >
+            <div className="services-section w-100 bg-dark py-5 text-light " id="values" >
                 <div className="row mb-5 mx-1">
                     <div className="col-12 Short-note  align-items-center text-center ">
                         <h3 className=" pt-5 mx-5 fw-bold ">OUR VALUES
@@ -51,7 +51,7 @@ const Hero = () => {
                     {/* <div className="col-lg-4 flex-column  d-flex align-items-center  py-5 "> */}
 
                     {Details.map(details => (
-                        <div className="col-lg-4 flex-column  d-flex align-items-center  py-3" key={details.id} data-aos="zoom-in-up">
+                        <div className="col-lg-4 flex-column ur9-values d-flex align-items-center  py-3" key={details.id} data-aos="zoom-in-up">
                             <div className="   bg-warning image4">
                                 <img className=" w-75 h-75 " src={details.image}></img>
 
@@ -73,7 +73,7 @@ const Hero = () => {
 
                     <div id="prop-items" className=" col-lg-6   px-5 py-4" data-aos="zoom-in-up"><img className="w-100 " src="/drinks.jpg" ></img></div>
 
-                    <div className="col-lg-6  px-5 py-4" data-aos="zoom-in-up">
+                    <div className="col-lg-6 ur px-5 py-4" data-aos="zoom-in-up">
                         <h3 className="fw-bold">UR9 DRINKS</h3>
                         <p>Experience the taste of the tropics in every sip from our newest Vodka drink, CIKA. Cika is brewed with love and made from the freshest and highest quality ingredients, sourced from the finest growers and suppliers around the world. Each bottle is carefully crafted to ensure that you get the most authentic and delicious taste for your special moments.
                             CIKA is the perfect drink for your special occasions that comes in 8 refreshing flavours</p>
