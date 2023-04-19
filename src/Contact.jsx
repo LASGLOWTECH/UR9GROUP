@@ -4,12 +4,16 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
 const ContactUs = () => {
+    const ServerId=process.env.REACT_FORM_SERVICE_ID
+    const templateId=process.env.REACT_FORM_TEMPLATE_ID
+    const tokenId=process.env.REACT_FORM_SERVICE_TOKEN
+   
     const form = useRef();
     const [loading, setIsloading] = useState(false)
     const [result, setResult] = useState("")
     const sendEmail = (e) => {
         e.preventDefault();
-        console.log(`${process.env.REACT_APP_API_KEY}`);
+        console.log(ServerId);
         setIsloading(true);
 
         emailjs.sendForm('service_9yexy8p', 'template_cl62k3c', form.current, 'PBTi6vGyx_hHTMRZs')
