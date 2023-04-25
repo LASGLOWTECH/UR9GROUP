@@ -5,7 +5,7 @@ const Footer = () => {
    const today= new Date().getFullYear();
     const[newDay]=useState(today)
     return ( 
-        <div className="   text-white footer-section">
+        <div className="   text-white pt-o footer-section">
 
 <div className="row" >
 <div className=" col-lg-2  d-flex  align-items-center justify-content-center  col-sm-12">

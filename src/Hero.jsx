@@ -1,4 +1,5 @@
 
+// eslint-disable-next-line
 import Details from "./Details";
 import { useEffect } from "react";
 
@@ -19,7 +20,7 @@ const Hero = () => {
                     <h1 className=" ms-4 fw-bolder pt-5 fs-1 text-white lh-sm mt-5 text-justify text-uppercase">Living Large and <span className="text-warning">Prosperous</span> is what we stand for  </h1>
                     <p className="mx-4 text-wrap mt-3 text-light ws-5  fw-bold fs-5 ">WELCOME TO UR9 GROUP</p>
                     <div className="Hero-word ms-4 b fs-2  fw-bolder w-50  rounded-3  my-5 fw-bold">
-                        <button class="  btn btn-warning mt-4   fw-bold mb-3"><a className="text-decoration-none text-light fw-bold" href="/About" target="_blank">LEARN MORE</a></button>
+                        <button class="  btn btn-warning mt-4   fw-bold mb-3"><a className="text-decoration-none text-dark fw-bold" href="/About" target="_blank">LEARN MORE</a></button>
                     </div>
 
                 </div>
@@ -53,7 +54,7 @@ const Hero = () => {
                     {Details.map(details => (
                         <div className="col-lg-4 flex-column ur9-values d-flex align-items-center  py-3" key={details.id} data-aos="zoom-in-up">
                             <div className="   bg-warning image4">
-                                <img className=" w-75 h-75 " src={details.image}></img>
+                                <img className=" w-75 h-75 " src={details.image} alt="heroimg"></img>
 
                             </div>
                             <h3 className="text-center py-4 fw-bold">{details.Tag}</h3>
@@ -71,7 +72,7 @@ const Hero = () => {
             <div className="About-section " id="About-section" >
                 <div className="row  py-5">
 
-                    <div id="prop-items" className=" col-lg-6   px-5 py-4" data-aos="zoom-in-up"><img className="w-100 " src="/drinks.jpg" ></img></div>
+                    <div id="prop-items" className=" col-lg-6   px-5 py-4" data-aos="zoom-in-up"><img className="w-100 " src="/drinks.jpg" alt="cikaimg" ></img></div>
 
                     <div className="col-lg-6 ur px-5 py-4" data-aos="zoom-in-up">
                         <h3 className="fw-bold">UR9 DRINKS</h3>
@@ -81,7 +82,7 @@ const Hero = () => {
                     </div>
 
 
-                    <div id="prop-items" className=" col-lg-6  px-5 py-4" data-aos="zoom-in-up"><img className="w-100 " src="/img1.jpg" ></img></div>
+                    <div id="prop-items" className=" col-lg-6  px-5 py-4" data-aos="zoom-in-up"><img className="w-100 " src="/img1.jpg" alt="proptimg"></img></div>
 
 
                     <div className="col-lg-6  px-5 py-2 " data-aos="fade-in">
@@ -92,7 +93,7 @@ const Hero = () => {
                     </div>
 
 
-                    <div id="prop-items" className=" col-lg-6  px-5 py-4" data-aos="zoom-in"><img className="w-100 " src="/propties.jpg" ></img></div>
+                    <div id="prop-items" className=" col-lg-6  px-5 py-4" data-aos="zoom-in"><img className="w-100 " src="/propties.jpg" alt="constimg" ></img></div>
 
 
 
